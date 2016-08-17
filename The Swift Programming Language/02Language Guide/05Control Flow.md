@@ -76,7 +76,7 @@ Dictionary中的项的迭代顺序可能跟它们插入时的顺序不一样。�
 
 除了排列和字典，for-in循环还能迭代字符串中的Character（字符）：
 
-    for character in "Hello" {
+    for character in "Hello".characters {
         println(character)
     }
     // H
