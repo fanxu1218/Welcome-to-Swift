@@ -169,7 +169,7 @@ for item in shoppingList {
 如果要获得每个元素的索引及其对应的值，可以使用全局的`enumerate`方法来迭代使用这个数组。`enumerate`方法对每个元素都会返回一个由索引值及对应元素值组成的元组。你可以把元组中的成员转为变量或常量来使用：
 
 ```
-for (index, value) in enumerate(shoppingList) {
+for (index, value) in shoppinglist.enumerated() {
     println("Item \(index + 1): \(value)")
 }
 // Item 1: Six eggs
